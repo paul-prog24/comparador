@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+#foto_ficha{
+    width: 400px;
+    border: 1px solid black;
+    margin: 10px;
+    height: 450px;
+}
+
+#foto_coca{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+}

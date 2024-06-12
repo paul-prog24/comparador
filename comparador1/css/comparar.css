@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+body{
+    background: url("../img/bebida_comparar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contenedor_formulario {
+    width: 40%;
+    height: 300px;
+    border-radius: 1.25rem;
+    text-align: center;
+    position: fixed;
+    top: 200px;
+    left: 50%; /* Cambiamos esta propiedad para centrar el contenedor horizontalmente */
+    transform: translateX(-50%); /* Centramos el contenedor horizontalmente con transform */
+    background-color: rgba(255, 69, 0, 0.45);
+    color: whitesmoke;
+}
+
+#contenedor_formulario > h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+}
+
+#contenedor_formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+#contenedor_formulario form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 5px;
+}
+
+#contenedor_formulario form div label {
+    width: 30%;
+}
+
+#contenedor_formulario form div input {
+    width: 60%;
+}
+
+#contenedor_formulario form div input[type="submit"] {
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    height: 40px;
+    border: none;
+}
+
+#contenedor_formulario form div input[type="submit"]:hover{
+    color: black;
+    background-color: orangered;
+    border: none;
+}
+
+#boton_volver a button{
+    width: 100px;
+    height: 50px;
+}
+
+#boton_volver a button:hover{
+    color: black;
+    background-color: orangered;
+}
+
+
+
+

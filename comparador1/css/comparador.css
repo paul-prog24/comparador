@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+    background: url("../img/fondo_comparador.jpg");
+    background-size: cover;
+}
+
+#formulario_comparador{
+    text-align: center;
+    border: 2px solid red;
+    background-color: rgba(255, 70, 0, 0.8);
+    display: flex;
+    margin: 50px;
+}
+
+#formulario_comparador > h2{
+    margin-top: 25px;
+}
+
+.buscador_bebida{
+    float: left;
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-top: 25px;
+
+}
+.bebida-bebida{
+    float: right;
+    margin-right: 80px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+#booton_formulario{
+    margin-left: 50px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+h2{
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#tabla{
+    margin:auto;
+    width: 700px;
+}
+
+ th{
+    border:2px solid red;
+}
+
+ tr{
+    border:1px solid red;
+
+}
+
+ #comparacion{
+     border: 2px solid blue;
+     margin: 50px;
+     border-radius: 1.25rem;
+     height: 170px;
+     background-color: rgba(0, 128, 255, 0.8);
+
+ }
+
+.fila-roja {
+    background-color: red;
+}
+
+.fila-verde {
+    background-color: green;
+}
+
+
+
+
+
+

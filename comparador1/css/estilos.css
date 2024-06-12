@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Sigmar&display=swap');
+*{
+    font-family: Sigmar;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+header{
+    background-color: orangered;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#header_titulo{
+    width: 50%;
+    float: left;
+}
+#header_lista{
+    float: left;
+    width: 30%;
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+nav{
+    width: 100%;
+    background-color: orangered;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+nav ul li{
+    padding-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav ul li a:hover{
+    color: black;
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+}
+footer p{
+    color: white;
+}
+footer p a{
+    text-decoration: none;
+    color: yellow;
+}
+footer p a:hover{
+    color: rebeccapurple;
+}
+
+#footer_entero{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#footer_texto{
+    width: 50%;
+    float: left;
+}
+#footer_lista{
+    float: right;
+    width: 50%;
+}
+#footer_lista ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+
+}
+#footer_lista ul li{
+    padding-right: 50px;
+}
+#footer_lista ul li a{
+    text-decoration: none;
+}
+#footer_lista ul li a:hover{
+    color: yellow;
+}
+
+
+
+
